@@ -1,0 +1,92 @@
+@media (max-width: 576px) {
+  .browsedHistory {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  .timeAccessed {
+    font-size: 15px;
+    font-weight: bold;
+    color: #475569;
+  }
+  .itemContainer {
+    display: flex;
+    flex-direction: row;
+  }
+  .domainLogo {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+    align-self: flex-start;
+  }
+  .title {
+    color: #475569;
+    font-weight: bold;
+    font-size: 13px;
+    margin-top: -3px;
+  }
+  .domainUrl {
+    color: #64748b;
+    font-weight: bold;
+    font-size: 13px;
+    margin-top: -11px;
+  }
+  .deleteButton {
+    align-self: flex-start;
+    margin-left: auto;
+    background-color: transparent;
+    border-width: 0;
+  }
+}
+@media (min-width: 767px) {
+  .browsedHistory {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  .timeAccessed {
+    font-size: 22px;
+    font-weight: bold;
+    color: #475569;
+  }
+  .itemContainer {
+    display: flex;
+    flex-direction: row;
+  }
+  .domainLogo {
+    height: 40px;
+    width: 40px;
+    margin-right: 20px;
+    align-self: flex-start;
+  }
+  .searchTextContainer {
+    display: flex;
+    flex-direction: row;
+    margin-top: -12px;
+  }
+  .title {
+    color: #475569;
+    font-weight: bold;
+    font-size: 21px;
+    align-self: center;
+  }
+  .domainUrl {
+    color: #64748b;
+    font-weight: bold;
+    font-size: 17px;
+    margin-left: 16px;
+    margin-top: 25px;
+  }
+  .deleteButton {
+    align-self: flex-start;
+    margin-left: auto;
+    background-color: transparent;
+    border-width: 0;
+    height: 60px;
+    width: 60px;
+    margin-top: -24px;
+  }
+  .deleteIcon {
+    width: 50%;
+  }
+}

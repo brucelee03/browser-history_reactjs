@@ -1,0 +1,146 @@
+.bgContainer {
+  font-family: 'Roboto';
+  height: 100vh;
+  overflow-y: auto;
+}
+@media (max-width: 576px) {
+  .navbar {
+    background-color: #3367d6;
+    background-size: cover;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+  }
+  .appLogo {
+    width: 66px;
+    height: 19px;
+    align-self: center;
+  }
+  .searchBar {
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    width: 100%;
+  }
+  .searchIcon {
+    height: 36px;
+    width: 41px;
+    border: solid 1px #6697ff;
+    border-radius: 5px 0 0 5px;
+    background: #2850a7;
+    align-content: center;
+    text-align: center;
+    padding-top: 3px;
+  }
+  .searchPng {
+    height: 19px;
+    width: 19px;
+  }
+  .serachInput {
+    width: 78%;
+    background-color: #2850a7;
+    border: solid 1px #6697ff;
+    border-radius: 0 5px 5px 0;
+    color: #ffffff;
+    padding: 8px;
+    font-size: 6px;
+    font-weight: 500;
+  }
+  .serachInput:focus {
+    outline: none;
+  }
+  .historySection {
+    display: flex;
+    flex-direction: column;
+    background-color: #f8fafc;
+    padding: 20px;
+    text-align: center;
+  }
+  .message {
+    color: #475569;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 55%;
+  }
+  .historyListsContainer {
+    list-style-type: none;
+    padding: 0 14px 14px 14px;
+    border-radius: 9px;
+    box-shadow: 0px 6px 16px 0px #ececec;
+    background-color: #ffffff;
+    margin-top: -5px;
+    gap: 8px;
+  }
+}
+@media (min-width: 767px) {
+  .navbar {
+    background-color: #3367d6;
+    background-size: cover;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+  }
+  .appLogo {
+    width: 106px;
+    height: 29px;
+    align-self: center;
+  }
+  .searchBar {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    width: 80%;
+    align-content: center;
+  }
+  .searchIcon {
+    height: 52px;
+    width: 64px;
+    border: solid 1px #6697ff;
+    border-radius: 5px 0 0 5px;
+    background: #2850a7;
+    align-content: center;
+    text-align: center;
+    padding-top: 3px;
+  }
+  .searchPng {
+    height: 29px;
+    width: 29px;
+  }
+  .serachInput {
+    width: 78%;
+    background-color: #2850a7;
+    border: solid 1px #6697ff;
+    border-radius: 0 5px 5px 0;
+    color: #ffffff;
+    padding: 12px;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .serachInput:focus {
+    outline: none;
+  }
+  .historySection {
+    display: flex;
+    flex-direction: column;
+    background-color: #f8fafc;
+    padding: 30px;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  .message {
+    color: #475569;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 25%;
+  }
+  .historyListsContainer {
+    list-style-type: none;
+    padding: 0 24px 24px 24px;
+    border-radius: 9px;
+    box-shadow: 0px 6px 16px 0px #ececec;
+    background-color: #ffffff;
+    margin-top: -5px;
+    margin-bottom: 20px;
+    gap: 8px;
+  }
+}
